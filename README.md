@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-The CLI will create a new folder with the name provided located in the directory where the command was issued. If you want to initialize the app somewhere else, you can append the `--path` flag to the command (`meroxa apps init testapp --lang py --path ~/anotherdir`). Once you enter the `sales-demo` directory, the contents will look like this:
+This repository contains a data transformation pipeline for processing and enriching sales records. The pipeline takes raw sales data, validates it, deduplicates it, and enriches it with additional information such as geolocation data, tax rates, sentiment scores, and hashed email addresses. The transformed data is then written to InfluxDB for further analysis and visualization.
 
 ```bash
 $ tree sales-demo/
