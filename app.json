@@ -1,0 +1,7 @@
+{
+    "name": "sales-demo-py",
+    "language": "python",
+    "resources": {
+        "source_name": "fixtures/demo-cdc.json"
+    }
+}

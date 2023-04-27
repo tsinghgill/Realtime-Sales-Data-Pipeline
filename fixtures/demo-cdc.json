@@ -1,0 +1,265 @@
+{
+  "sales": [
+    {
+      "key": 167,
+      "value": {
+        "payload": {
+          "after": {
+            "customer_id": 38,
+            "customer_email": "danny37@example.com",
+            "product_id": 90,
+            "quantity": 46,
+            "price": 28,
+            "order_date": "2013-12-23",
+            "postal_code": "89895",
+            "state": "SD",
+            "customer_review": "Perform one once those necessary. Who conference attack live. Dog collection party put something tree.",
+            "extra_id": 42,
+            "order_id": 64
+          },
+          "before": null,
+          "op": "r",
+          "source": {},
+          "transaction": null,
+          "ts_ms": 1682625331919
+        },
+        "schema": {
+          "fields": [
+            {
+              "field": "customer_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "customer_email",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "product_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "quantity",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "price",
+              "optional": true,
+              "type": "float"
+            },
+            {
+              "field": "order_date",
+              "optional": true,
+              "type": "timestamp"
+            },
+            {
+              "field": "postal_code",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "state",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "customer_review",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "extra_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "order_id",
+              "optional": true,
+              "type": "int32"
+            }
+          ],
+          "name": "resource_7109_171736.public.sales.Envelope",
+          "optional": false,
+          "type": "struct"
+        }
+      }
+    },
+    {
+      "key": 816,
+      "value": {
+        "payload": {
+          "after": {
+            "customer_id": 8,
+            "customer_email": "phillipsmark@example.org",
+            "product_id": 44,
+            "quantity": 77,
+            "price": 7,
+            "order_date": "2021-07-07",
+            "postal_code": "20797",
+            "state": "PW",
+            "customer_review": "Full score big same law smile. Front establish forget standard allow.\nFight poor each simple. Teach mother professor staff door.",
+            "extra_id": 53,
+            "order_id": 44
+          },
+          "before": null,
+          "op": "r",
+          "source": {},
+          "transaction": null,
+          "ts_ms": 1682625331920
+        },
+        "schema": {
+          "fields": [
+            {
+              "field": "customer_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "customer_email",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "product_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "quantity",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "price",
+              "optional": true,
+              "type": "float"
+            },
+            {
+              "field": "order_date",
+              "optional": true,
+              "type": "timestamp"
+            },
+            {
+              "field": "postal_code",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "state",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "customer_review",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "extra_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "order_id",
+              "optional": true,
+              "type": "int32"
+            }
+          ],
+          "name": "resource_7109_171736.public.sales.Envelope",
+          "optional": false,
+          "type": "struct"
+        }
+      }
+    },
+    {
+      "key": 989,
+      "value": {
+        "payload": {
+          "after": {
+            "customer_id": 26,
+            "customer_email": "erica21@example.org",
+            "product_id": 13,
+            "quantity": 10,
+            "price": 90,
+            "order_date": "1988-04-26",
+            "postal_code": "01082",
+            "state": "ND",
+            "customer_review": "Successful find assume prevent oil.\nParent call least report. Animal season government likely nation. Against for window always improve.",
+            "extra_id": 10,
+            "order_id": 7
+          },
+          "before": null,
+          "op": "r",
+          "source": {},
+          "transaction": null,
+          "ts_ms": 1682625331920
+        },
+        "schema": {
+          "fields": [
+            {
+              "field": "customer_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "customer_email",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "product_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "quantity",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "price",
+              "optional": true,
+              "type": "float"
+            },
+            {
+              "field": "order_date",
+              "optional": true,
+              "type": "timestamp"
+            },
+            {
+              "field": "postal_code",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "state",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "customer_review",
+              "optional": true,
+              "type": "string"
+            },
+            {
+              "field": "extra_id",
+              "optional": true,
+              "type": "int32"
+            },
+            {
+              "field": "order_id",
+              "optional": true,
+              "type": "int32"
+            }
+          ],
+          "name": "resource_7109_171736.public.sales.Envelope",
+          "optional": false,
+          "type": "struct"
+        }
+      }
+    }
+  ]
+}
