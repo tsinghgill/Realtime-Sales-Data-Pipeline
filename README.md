@@ -78,7 +78,45 @@ Before you start, make sure you have the following:
       REDIS_PASSWORD=<YOUR_SECRET>
 4. Run the app `meroxa apps run`
 
+### Examples
+
+This repository provides examples of data transformation modules for sales records in our dataset. The modules are designed to enrich, clean, validate, and analyze the sales data, making it more useful for various business purposes. Below is a brief summary of each module:
+
+Anomaly Detection:
+This module provides an anomaly detection mechanism for the sales records in our dataset. It uses the Isolation Forest algorithm from the scikit-learn library to identify anomalous transactions in the data. The anomaly detector takes into consideration the transaction amount, which is calculated as the product of the price and quantity of the sold items. To set up this file, make sure to have scikit-learn installed in your project environment.
+
+Data Deduplication:
+This module provides data deduplication functionality for the sales records in our dataset using Redis as a key-value store. It helps ensure that the Meroxa data streaming app only processes unique records, avoiding repeated processing of the same sales data. The module relies on the Redis client library for Python to interact with a Redis server.
+
+Schema Validation:
+This module provides schema validation functionality for the sales records in our dataset using the Pydantic library. It ensures that the incoming records conform to a predefined schema, helping maintain data consistency and quality in the dataset. The module relies on the Pydantic library for Python to perform the schema validation.
+
+Sentiment Analysis:
+This module provides sentiment analysis functionality for the sales records in our dataset using the TextBlob library. It calculates sentiment scores for the customer reviews and adds the scores to the payload of the incoming sales records. This helps enrich the sales data with additional insights that can be used for various analytics purposes. The module relies on the TextBlob library for Python to perform sentiment analysis.
+
+Email Hashing:
+This module provides email hashing functionality for the sales records in our dataset. It hashes customer email addresses using the SHA-256 algorithm to anonymize personal information, enhancing data privacy and security. The module uses Python's built-in hashlib library to perform SHA-256 hashing.
+
+Data Filtering:
+This module provides a function to remove unnecessary fields from the sales records in our dataset. This helps reduce the size of the dataset and focuses the data processing on the most relevant information. By removing unnecessary fields, we can streamline our data processing pipeline and reduce storage and bandwidth requirements.
+
+API Geolocation Enrichment:
+This module provides functionality to enrich sales records with geolocation data based on the postal code of the customer. By adding geolocation information to our sales table, we can perform geospatial analysis and visualize sales patterns on a map. This can help with understanding regional trends and improve decision-making for marketing, inventory management, and other business areas.
+
+InfluxDB Integration for Analytics:
+This module provides functionality to write sales records to InfluxDB, a time-series database that is well-suited for real-time analytics and monitoring. Storing the sales data in InfluxDB allows us to perform time-based queries and visualizations, helping us understand sales trends and make better business decisions.
+
+Sentry Integration for Monitoring:
+This module provides functionality to initialize Sentry, an error and performance monitoring tool, for our data transformation pipeline. Integrating Sentry into our pipeline helps us track errors and performance issues that may occur during the transformation process, allowing us to identify and fix problems more efficiently.
+
+Tax Rate Enrichment:
+This module provides functionality to enrich sales records with state-specific tax rates. By adding tax rate information to our sales table, we can calculate the total tax amount for each sale, helping us understand the tax liabilities and generate accurate financial reports for the company.
+
+To set up each module, please refer to the instructions provided in the respective module's documentation.
+
 ## Meroxa + Turbine Developer Journey
+
+Below we will discuss how a typical data app is created and how you can get up and running for your own apps.
 
 This configuration file is where you begin your Turbine journey. Any time a Turbine app runs, this is the entry point for the entire application. When the project is created, the file will look like this:
 
